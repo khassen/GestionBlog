@@ -1,0 +1,39 @@
+
+ <?xml version="1.0"?>
+<listCommentaires xmlns="http://www.w3schools.com">
+	<commentaires comId='15'>
+		<comNom>nom15</comNom>
+		<comEmail>nom15-yahoo.fr</comEmail>
+		<comText>text15</comText>
+		<comDate>2010-02-01</comDate>
+		<comValidation>validation15</comValidation>
+		<article>
+			<artId>1</artId>
+		</article>
+	</commentaires>
+	
+	<commentaires comId='16'>
+		<comNom>nom16</comNom>
+		<comEmail>nom16-yahoo.fr</comEmail>
+		<comText>text16</comText>
+		<comDate>2000-10-10</comDate>
+		<comValidation>validation16</comValidation>
+		<article>
+			<artId>12</artId>
+		</article>
+	</commentaires>
+	
+		<commentaires comId='17'>
+		<comNom>nom17</comNom>
+		<comEmail>nom17-yahoo.fr</comEmail>
+		<comText>text16</comText>
+		<comDate>2005-05-06</comDate>
+		<comValidation>validation17</comValidation>
+		<article>
+			<artId>13</artId>
+		</article>
+	</commentaires>
+
+
+
+</listCommentaires>

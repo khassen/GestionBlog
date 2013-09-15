@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.w3schools.com" xmlns="http://www.w3schools.com"
+	elementFormDefault="qualified">
+
+	<xs:element name="listCommentaires">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="commentaires" minOccurs="1" maxOccurs="10" />
+
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="commentaires">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="comId" type="xs:int" />
+				<xs:element name="comNom" type="xs:string"  />
+				<xs:element name="comEmail" type="xs:string" />
+				<xs:element name="comText" type="xs:string" />
+				<xs:element name="comDate" type="xs:date" />
+				<xs:element name="comValidation" type="xs:string"
+					maxOccurs="1" />
+				<xs:element name="Articles" type="Articles" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:complexType name="Articles">
+		<xs:sequence>
+			<xs:element name="artId" type="xs:int" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+</xs:schema>
